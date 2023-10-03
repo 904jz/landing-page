@@ -51,6 +51,7 @@ h1{
 .random{
     background-color: white;
     text-align: center;
+    padding: 50px;
     
 }
 .box{
@@ -78,10 +79,20 @@ button{
     display:flex;
     justify-content: space-around;
     gap:10px;
+    
+}
+.captions{
+    display: flex;
+    justify-content: space-around;
+    gap:10px;
+    
 }
 .box{
     
-    
+    height: 80px;
+    width: 80px;
+    border: solid #3882F6;
+    border-radius: 5px;
 }
 #thor{
     font-weight: bold;
@@ -107,4 +118,11 @@ button{
 #low{
     border: solid   white;
     font-size: 18px;
+}
+footer{
+    background-color: #1F2937;
+    color: white;
+    padding: 30px;
+    margin: none;
+    text-align: center;
 }
